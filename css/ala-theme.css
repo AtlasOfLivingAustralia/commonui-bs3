@@ -26,6 +26,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
   border-color: #A94733;
+  background-color: #CE573E;
 }
 .btn-primary:hover,
 .btn-primary:focus {
@@ -40,7 +41,7 @@
 .btn-primary.disabled,
 .btn-primary:disabled,
 .btn-primary[disabled] {
-  background-color: #CE573E;
+  background-color: #999;
   background-image: none;
 }
 
