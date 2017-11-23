@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ALA Homepage</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="css/ala-styles.css" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body class="background-lightgrey">
+
+  <!-- Navbar start -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container container-navbar">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img alt="Brand" src="https://wpprod2017.ala.org.au/wp-content/themes/ala-wordpress-theme/img/ala-logo-2016-inline.png">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="row row-search">
+          <div class="col-xs-12 col-sm-4 col-md-6">
+            <form id="global-search" class="banner" action="https://bie.ala.org.au/search" method="get" name="search-form">
+              <div class="icon-addon addon-lg">
+                <input type="text" placeholder="Search the Atlas ..." class="form-control autocomplete" id="biesearch" name="q">
+                <label for="biesearch" class="glyphicon glyphicon-search" rel="tooltip" title="search"></label>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-2 hidden-xs">
+            <ul class="nav navbar-nav navbar-right nav-login">
+              <li><a href="https://wpprod2017.ala.org.au/wp-login.php?redirect_to=https%3A%2F%2Fwpprod2017.ala.org.au">Log in</a></li>
+            </ul>
+
+          </div>
+        </div><!-- End row -->
+
+        <ul class="nav navbar-nav">
+          <!-- <li class="active"><a href="#">Home</a></li> -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              Start exploring
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="https://lists.ala.org.au/iconic-species">Australian species</a></li>
+              <li><a href="https://biocache.ala.org.au/explore/your-area">Explore your area</a></li>
+              <li><a href="http://regions.ala.org.au/">Explore regions</a></li>
+              <li><a href="https://biocache.ala.org.au/search">Search occurrence records</a></li>
+              <!-- <li><a href="http://bie.ala.org.au/">Search species</a></li> -->
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              Search &amp; analyse
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="http://collections.ala.org.au/">Browse natural history collections</a></li>
+              <li><a href="http://collections.ala.org.au/datasets">Search collections datasets</a></li>
+              <li><a href="https://downloads.ala.org.au">Download datasets</a>
+              <li><a href="https://spatial.ala.org.au/">Spatial portal</a></li>
+              <li class="divider"></li>
+              <li><a href="https://dashboard.ala.org.au/">ALA dashboard</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              Participate
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="https://biocollect.ala.org.au/">Join a Citizen Science project</a></li>
+              <li><a href="https://sightings.ala.org.au/">Record a sighting in the ALA</a></li>
+              <li><a href="http://www.ala.org.au/get-involved/upload-data-sets/">Submit a data set to the ALA</a></li>
+              <li><a href="https://digivol.ala.org.au/">Digitise a record in DigiVol</a></li>
+              <li class="divider"></li>
+              <li><a href="/work-with-ala.html">Work with the ALA</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              Learn about the ALA
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="/about-the-atlas/">Who we are</a></li>
+              <li class="divider"></li>
+              <li><a href="/how-to-use/">How to use the ALA</a></li>
+              <li><a href="/how-to-work-with-data/">How to work with data</a></li>
+              <li><a href="/about-the-atlas/terms-of-use/citing-the-atlas/">How to cite the ALA</a></li>
+              <li class="divider"></li>
+              <li><a href="/education-resources/">Learning resources</a></li>
+              <li><a href="/article-IEK/">Indigenous Ecological Knowledge</a></li>
+              <li class="divider"></li>
+              <li><a href="/blogs-news/">ALA News</a></li>
+              <li class="divider"></li>
+              <li><a href="/about-the-atlas/contact-us/">Contact us</a></li>
+              <li><a href="/about-the-atlas/feedback-form/">Feedback form</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right visible-xs">
+          <li><a href="https://wpprod2017.ala.org.au/wp-login.php?redirect_to=https%3A%2F%2Fwpprod2017.ala.org.au"><span class="nav-login">Log in</span></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- End Navbar -->
+
+  <div class="jumbotron ala-header hidden-print" id="ala-jumbotron">
+    <div class="container">
+      <div class="col-lg-6 col-md-8 col-sm-12 promotional">The <strong>Atlas of Living Australia</strong> is a collaborative, national project that aggregates biodiversity data from multiple sources and makes it freely available and usable online</div>
+    </div>
+  </div>
+
+  <!-- Promotional alert -->
+  <!-- <div class="alert alert-promotional alert-dismissible hidden-print" role="alert">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="col-md-12">
+          <button type="button" class="close alert-dismissable-button" data-dismiss="alert" aria-label="Close" title="Close"><span aria-hidden="true">&times;</span></button>
+          <p class="alert-text">
+            We will be updating our website over the next couple of months. <a href="#">Read about our Continuous Delivery methodology</a> and you can also <a href="#">read our release notes</a> for our test site.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- End promotional alert -->
+
+  <!-- Container -->
+  <div class="container" id="main">
+
+    <div class="col-md-8 col-md-offset-2 hidden">
+      <h1 class="heading-large margin-bottom-quarter-1">Atlas of Living Australia</h1>
+      <h2 class="promotional">
+        The Atlas of Living Australia is a collaborative, national project that aggregates biodiversity data from multiple sources and makes it freely available and usable online
+      </h2>
+    </div>
+
+    <!-- Main stats -->
+    <div class="col-md-12">
+      <div class="main-stats row">
+        <div class="main-stats col-lg-3 col-md-3 col-sm-6">
+          <h4>Occurrence Records</h4>
+          <div class="stat-number" id="allRecords">
+            68,000,000
+          </div>
+        </div>
+
+        <div class="main-stats col-lg-3 col-md-3 col-sm-6">
+          <h4>Species</h4>
+          <div class="stat-number" id="allSpecies">
+            472,000
+          </div>
+        </div>
+
+        <div class="main-stats col-lg-3 col-md-3 col-sm-6">
+          <h4>Data downloads</h4>
+          <div class="stat-number" id="allDownloads">
+            914,000
+          </div>
+        </div>
+
+        <div class="main-stats col-lg-3 col-md-3 col-sm-6">
+          <h4>Registered users</h4>
+          <div class="stat-number" id="allUsers">
+            34,000
+          </div>
+        </div>
+      </div><!-- End main stats -->
+    </div>
+
+
+    <!-- Main col -->
+    <div class="col-md-12">
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="panel panel-default">
+          <a href="https://wptest.ala.org.au/australias-species/"><img class="img-responsive" src="img/homepage-channel-image-koala.jpg"></a>
+          <div class="panel-body">
+            <h3><a href="https://wptest.ala.org.au/australias-species/">Australian species</a></h3>
+            <p class="help-block">
+              Search for Australian flora and fauna species by common, scientific name or search by category.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="panel panel-default">
+          <a href="https://wptest.ala.org.au/species-by-location/"><img class="img-responsive" src="img/homepage-channel-image-lionfish.jpg"></a>
+          <div class="panel-body">
+            <h3><a href="https://wptest.ala.org.au/species-by-location/">Species by location</a></h3>
+            <p class="help-block">
+              Use the Atlas of Living Australia to browse species by pre-defined region or by location to find species nearby.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="panel panel-default">
+          <a href="https://wptest.ala.org.au/occurrence-records/"><img class="img-responsive" src="img/homepage-channel-image-rainbow-lorikeet.jpg"></a>
+          <div class="panel-body">
+            <h3><a href="https://wptest.ala.org.au/occurrence-records/">Occurrence records</a></h3>
+            <p class="help-block">
+              Use the Atlas to Explore species occurrence records using the Spatial Portal or Search Records for species occurrences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End Col -->
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="panel panel-default">
+          <a href="https://wptest.ala.org.au/get-involved/"><img class="img-responsive" src="https://wptest.ala.org.au/wp-content/themes/ala-wordpress-theme/img/ala-info-hub-get-involved-icon.jpg"></a>
+          <div class="panel-body">
+            <h3><a href="https://wptest.ala.org.au/get-involved/">Work with the ALA</a></h3>
+            <p class="help-block">
+              Learn about the ALA and discover the many different ways in which we can help you achieve your goals.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="panel panel-default">
+          <a href="https://wptest.ala.org.au/blogs-news/">
+            <img class="img-responsive" src="https://wptest.ala.org.au/wp-content/themes/ala-wordpress-theme/img/ala-info-hub-how-you-can-icon.jpg">
+          </a>
+          <div class="panel-body">
+            <h3><a href="https://wptest.ala.org.au/blogs-news/">Browse ALA news</a></h3>
+            <p class="help-block">
+              Learn about the ALA and discover the many different ways in which we can help you achieve your goals.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="panel panel-default">
+          <a href="https://wptest.ala.org.au/atlas-information-hub/">
+            <img class="img-responsive" src="https://wptest.ala.org.au/wp-content/themes/ala-wordpress-theme/img/ala-info-hub-education-icon.jpg">
+          </a>
+          <div class="panel-body">
+            <h3><a href="https://wptest.ala.org.au/atlas-information-hub/">ALA knowledge base</a></h3>
+            <p class="help-block">
+              Did you see something? Photograph something? Contribute your sighting to the Atlas of Living Australia. Log your sighting at our Record a Sighting page.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End Col -->
+    </div><!-- End main col -->
+
+  </div>
+
+  <footer>
+    <!-- Container -->
+    <div class="container footer-container ">
+      <!-- <hr class="footer-border"> -->
+      <div class="row footer-nav">
+
+        <div class="col-md-12 margin-bottom-2">
+          <h2 class="heading-large margin-bottom-quarter-1">Atlas of Living Australia</h2>
+          <h3 class="promotional">Sharing biodiversity knowledge to shape our future</h3>
+        </div>
+
+        <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
+          <h5>Start exploring</h5>
+          <ul class="link-list">
+            <li><a href="https://lists.ala.org.au/iconic-species">Australian species</a></li>
+            <li><a href="https://biocache.ala.org.au/explore/your-area">Explore your area</a></li>
+            <li><a href="http://regions.ala.org.au/">Explore your region</a></li>
+            <li><a href="https://biocache.ala.org.au/search">Search occurrence records</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
+          <h5>Search &amp; analyse</h5>
+          <ul class="link-list">
+            <li><a href="http://collections.ala.org.au/">Browse natural history collections</a></li>
+            <li><a href="http://collections.ala.org.au/datasets">Search collections datasets</a></li>
+            <li><a href="https://downloads.ala.org.au">Download datasets</a>
+            <li><a href="https://spatial.ala.org.au/">Spatial portal</a></li>
+            <li><a href="https://dashboard.ala.org.au/">ALA dashboard</a></li>
+          </ul>
+        </div>
+
+        <div class="clearfix visible-xs-block">
+          <!-- This fixes the alignment issues of the footer columns -->
+        </div>
+
+        <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
+          <h5 class="footer-second-row">Participate</h5>
+          <ul class="link-list">
+            <li><a href="https://biocollect.ala.org.au/">Join a CS project</a></li>
+            <li><a href="https://sightings.ala.org.au/">Record a sighting</a></li>
+            <li><a href="/get-involved/upload-data-sets/">Submit a dataset</a></li>
+            <li><a href="https://digivol.ala.org.au/">Digitise a record</a></li>
+            <li><a href="/work-with-ala.html">Work with the ALA</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-sm-3 col-lg-3 hidden-print">
+          <h5 class="footer-second-row">Learn about the ALA</h5>
+          <ul class="link-list">
+            <li><a href="/about-the-atlas/">Who we are</a></li>
+            <li><a href="/how-to-use/">How to use the ALA</a></li>
+            <li><a href="/how-to-work-with-data/">How to work with data</a></li>
+            <li><a href="/about-the-atlas/terms-of-use/citing-the-atlas/">How to cite the ALA</a></li>
+            <li><a href="/education-resources/">Learning resources</a></li>
+            <li><a href="/article-IEK/">Indigenous Ecological Knowledge</a></li>
+            <li><a href="/blogs-news/">ALA News</a></li>
+            <li><a href="/about-the-atlas/contact-us/">Contact us</a></li>
+            <li><a href="/about-the-atlas/feedback-form/">Feedback form</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row footer-bonus">
+        <div class="col-md-4 col-sm-12 footer-bonus-item">
+          <h5 class="footer-bonus-heading">Explore the Spatial Portal</h5>
+          <a href="https://spatial.ala.org.au/" title="Spatial portal" class="footer-bonus-link">
+            <img class="img-responsive" src="https://wpprod2017.ala.org.au/wp-content/themes/ala-wordpress-theme/img/footer-bonus-spatial-portal-icon.png" alt="Spatial Portal icon">
+          </a>
+          <p class="footer-bonus-description"><a href="https://spatial.ala.org.au/">Explore species occurrence records</a> in the context of their environment. Find records and model species distributions. Export reports, maps and data.</p>
+        </div>
+        <div class="col-md-4 col-sm-12 footer-bonus-item">
+          <h5 class="footer-bonus-heading">Join a Citizen Science Project</h5>
+          <a href="https://biocollect.ala.org.au/" title="Contribute your sightings" class="footer-bonus-link">
+            <img class="img-responsive" src="https://wpprod2017.ala.org.au/wp-content/themes/ala-wordpress-theme/img/footer-bonus-cit-science-icon.png" alt="Citizen Science icon">
+          </a>
+          <p class="footer-bonus-description">Find out how you can <a href="https://biocollect.ala.org.au/">contribute to a citizen science project</a> in your area, or explore one of the many citizen science projects supported by the ALA.</p>
+        </div>
+        <div class="col-md-4 col-sm-12 footer-bonus-item">
+          <h5 class="footer-bonus-heading">Record a sighting</h5>
+          <a href="https://sightings.ala.org.au/" title="Did you see something?" class="footer-bonus-link">
+            <img class="img-responsive" src="https://wpprod2017.ala.org.au/wp-content/themes/ala-wordpress-theme/img/footer-bonus-record-sighting-icon.png" alt="Sightings icon">
+          </a>
+          <p class="footer-bonus-description">Did you see something? Photograph something? <a href="https://sightings.ala.org.au/">Contribute your sighting</a> to the Atlas of Living Australia.</p>
+        </div>
+
+      </div>
+
+      <!-- Acknowledgement section -->
+      <div class="row col-sm-12 acknowledgement-callout acknowledgement-callout-ala">
+        <div class="col-md-10 col-sm-12">
+          <h4 class="margin-bottom-half-1">Acknowledgement of Traditional Owners and Country</h4>
+          <p>The Atlas of Living Australia acknowledges Australia’s Traditional Owners and pays respect to the past and present Elders of the nation’s Aboriginal and Torres Strait Islander communities. We honour and celebrate the spiritual, cultural and customary connections of Traditional Owners to country and the biodiversity that forms part of that country.</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+      <!-- Logo section -->
+      <div class="row">
+        <div class="col-md-12">
+          <h5 class="footer-bonus-heading">The ALA is made possible by contributions from its partners, is supported by NCRIS and hosted by CSIRO</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 footer-bonus-brands">
+          <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris" target="_blank" class="img-responsive" id="ncris"></a>
+          <a href="https://www.csiro.au/" target="_blank" id="csiro"></a>
+          <a href="http://www.gbif.org/" target="_blank" class="img-responsive" id="gbif"></a>
+        </div>
+      </div>
+      <!-- End logo section -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="footer-list">
+            <li class="footer-item footer-social-item">
+              <a title="Twitter" class="footer-social-link" href="https://www.facebook.com/atlasoflivingaustralia"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="footer-item footer-social-item">
+              <a title="Facebook" class="footer-social-link" href="https://twitter.com/#!/atlaslivingaust"><i class="fa fa-twitter"></i></a>
+            </li>
+
+            <li class="footer-item footer-item-text footer-item-start"><a href="https://www.csiro.au/en/About/Footer/Copyright">Copyright</a></li>
+            <li class="footer-item footer-item-text"><a href="/about-the-atlas/terms-of-use/">Terms of use</a></li>
+            <li class="footer-item footer-item-text"><a href="/about-the-atlas/contact-us/">Contact us</a></li>
+            <li class="footer-item footer-item-status"><a href="/system-status/">System status</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End Container -->
+  </footer>
+
+  <!-- Creative commons alert -->
+  <div class="alert alert-creativecommons hidden-print" role="alert">
+    <div class="container alert-container">
+      <div class="row-fluid">
+        <div class="col-md-12">
+          <p class="alert-text text-creativecommons">
+            This work is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/au/" target="_blank">Creative Commons Attribution 3.0 Australia License</a>&ensp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Creative commons alert -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ala-wp-common.js"></script>
+</body>
+</html>
