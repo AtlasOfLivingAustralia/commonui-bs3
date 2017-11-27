@@ -148,6 +148,7 @@ input[type="date"] {line-height: 34px;}
 .form-group {margin-bottom: 15px;}
 .form-group-lg .form-control, .form-group-sm .form-control {border-radius: 0;}
 .input-group-addon {border: 1px solid #999;border-radius: 0;}
+.input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.btn {border-radius: 0;}
 
 /* Labels
 ================================= */
